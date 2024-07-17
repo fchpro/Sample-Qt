@@ -1,0 +1,392 @@
+
+/* 
+grey main : #3c3c3c
+black title bar : #111111
+white text color #d2d2d2
+blue accent :  #0b60b0
+cool red suggested : #ff6262
+on off green : #02af71
+on off red : #f01c29
+
+#3c3c3c
+#3c3c3c
+#3c3c3c
+#3c3c3c
+#3c3c3c
+#d2d2d2
+
+ */
+
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #d2d2d2;
+}
+
+QMainWindow {
+    background: #3c3c3c;
+    color : white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+#Color_Dialog QPushButton {
+    min-height: 40px;
+}
+
+
+QDialog {
+    color : white;
+}
+
+QDialog #RoundedDialog {
+    border-radius: 10px;
+    background: #3c3c3c;
+    border-radius: 10px;
+}
+
+QLabel {
+    font-family: 'Pacifico', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+QCheckBox {
+    font-family: 'Pacifico', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+QRadioButton {
+    font-family: 'Pacifico', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+QListWidget {
+    font-family: 'Pacifico', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+QPushButton {
+    color: #FFFFFF;
+    background-color: #333333;
+    border: 1px solid #1F1F1F;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+QPushButton[min_height="true"] {
+    min-height: 40px;
+}
+
+QPushButton#add_to_render_button {
+    background-color: #d2d2d2; color: #11111;
+}
+
+
+QWidget#Section {
+    background: #3c3c3c;
+    color: #d2d2d2;
+}
+
+
+/* QPushButton {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+    border-radius: 4px;
+    border: 1px solid #0B7AEF;
+    text-transform: uppercase;
+} */
+
+QPushButton:disabled {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #000000, stop:1 #3c3c3c);
+    color: #33ffffff;
+}
+
+QComboBox QAbstractItemView::item:selected {
+    background-color: #3c3c3c; /* Replace with the color you want */
+    color: white; /* Replace with the color you want for the text */
+}
+
+QComboBox {
+    background-color:  qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c); /* Replace with the color you want */
+    color: white; /* Replace with the color you want for the text */
+    font-family: 'Pacifico', sans-serif;
+    font-size: 20px;
+}
+
+QComboBox::drop-down {
+    background-color: #3c3c3c; /* Replace with the color you want for the arrow background */
+    font-family: 'Pacifico', sans-serif;
+    font-size: 20px;
+}
+
+QComboBox::down-arrow {
+    image: url(/path/to/your/image.png); /* Replace with the path to your arrow image */
+    font-family: 'Pacifico', sans-serif;
+    font-size: 20px;
+}
+
+/* If you want to style the popup list as well */
+QComboBox QAbstractItemView {
+    background-color: #3c3c3c; /* Replace with the color you want for the list items background */
+    color: white; /* Replace with the color you want for the list items text */
+    font-family: 'Pacifico', sans-serif;
+    font-size: 20px;
+}
+
+
+QPushButton:hover {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+}
+
+QPushButton[has_value_set="true"] {
+    border: 2px solid #24F091 !important;
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+}
+
+
+QWidget#CanvasActions { background-color: #000; border-radius: 10px; }
+
+QLabel#SectionTitle {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+QWidget#Section QLabel, QWidget#Section QRadioButton  {
+    color: #fff;
+    font-weight: bold;
+}
+
+QWidget#Section QPushButton {
+    font-size: 14px;
+    height: 28px;
+    text-align: left;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+#AppNameLogo {
+    font-weight: 700;
+    text-align: left;
+    background: transparent;
+}
+
+QToolTip {
+    color: #000; border-radius: 10px;
+}
+
+#TopBar QPushButton {
+    background: transparent;
+    font-size: 18px;
+    border: none;
+
+}
+#FrameworkButtons QPushButton {
+    min-height: 190px;
+}
+
+#RenderQueue QLabel {
+    color: #000;
+}
+
+#RenderQueue QPushButton {
+    min-height: 40px;
+}
+
+#RenderQueue QPushButton#StartRenderingButton {
+    font-size: 20px;
+    color: #FFACDD;
+    border: 2px solid #FFACDD;
+}
+
+
+#TemplateScroll, #TemplateScroll > QWidget > QWidget {
+    background: #3c3c3c;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+#TemplateScroll> QWidget > QScrollBar:vertical {
+    background: #1a1212;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#TemplateScroll> QWidget > QScrollBar::handle:vertical {
+    background: #3c3c3c;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+#EffectsScroll, #EffectsScroll > QWidget > QWidget {
+    background: #3c3c3c;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+#EffectsScroll> QWidget > QScrollBar:vertical {
+    background: #3c3c3c;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#EffectsScroll> QWidget > QScrollBar::handle:vertical {
+    background: #3c3c3c;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#File_Dialog {
+    background: #3c3c3c;
+
+}
+#RenderQueue  {
+    background: #3c3c3c;
+    color : white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#RenderQueue  QListView{
+    color : white;
+    font-size: 20px;
+    font-family: 'Pacifico', sans-serif;
+}
+
+QLineEdit {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+    border: 2px solid #0B7AEF;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Pacifico', sans-serif;
+}
+
+QTextEdit {
+    font-family: 'Pacifico', sans-serif;
+    background-color: #3c3c3c ;
+    border: 2px solid #0B7AEF;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+#TextFieldsFrame QPushButton {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+    border-radius: 4px;
+    border: 2px solid #0B7AEF;
+}
+
+
+#TextFieldsFrame QWidget {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+    border-radius: 4px;
+    border: 2px solid #180001;
+
+}
+
+#TextFieldsFrame QPushButton {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+    border-radius: 4px;
+    border: 2px solid #180001;
+    padding: 0;
+
+}
+
+
+
+#QueueLengthLabel {
+    color: #D4C9E3;
+    text-align: center;
+}
+
+QListView {
+    background: qlineargradient( x1:0 y1:0, x2:1 y2:1, stop:0 #3c3c3c, stop:1 #3c3c3c);
+    color: white;
+    border-radius: 10px;
+}
+
+QDialog#TextOptions QLabel {
+    color: #000000;
+}
+
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;  /* half of width and height for a circle */
+}
+
+QCheckBox::indicator:unchecked {
+    border: 2px solid #0B7AEF;
+    background-color: transparent;
+}
+
+QCheckBox::indicator:checked {
+    border: 2px solid #0B7AEF;
+    background-color: white;
+}
+
+QCheckBox::indicator:checked:disabled {
+    background-color: lightgray;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+QCheckBox::indicator:checked:hover {
+    border: 2px solid white;
+    background-color: #0B7AEF;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+
+
+
+@keyframes fadeIn {
+    from {opacity: 0.5;}
+    to {opacity: 1;}
+}
+
+
+QWidget#Section QPushButton#IconsListIcon {
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    background: #55000000;
+    padding: 0px;
+    text-align: center;
+}
+
+QWidget#Section QPushButton#ColorIndicator {
+    border-radius: 4px;
+    border: none;
+    background: #55000000;
+    padding: 0px;
+    text-align: center;
+}
+
+QStatusBar {
+    color: #fff;
+}

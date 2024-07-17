@@ -1,0 +1,269 @@
+/* list of all colors : 
+grey main : #3c3c3c
+black title bar : #111111
+#55ffffff
+white text color #d2d2d2
+blue accent :  #0b60b0
+cool red suggested : #ff6262
+on off green : #02af71
+on off red : #BF1010
+
+ */
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #d2d2d2;
+     font-weight: 400;
+}
+
+
+QMainWindow {
+    background: #111111;
+    color : white;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+QPushButton {
+    color: #FFFFFF;
+    background-color: #111111;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 8px 16px;
+    text-align: left;
+}
+
+
+QPushButton:hover {
+    background-color: #111111;
+}
+
+QPushButton:pressed {
+    background-color: #3c3c3c;
+}
+
+QPushButton:disabled {
+    background-color: #3c3c3c;
+    color: #55ffffff;
+}
+
+QLineEdit, QTextEdit {
+    color: #d2d2d2;
+    background-color: #111111;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #55ffffff;
+}
+
+QCheckBox {
+    spacing: 12px;
+    color: #d2d2d2;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #55ffffff;
+    border-radius: 2px;
+    background-color: #111111;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #0b60b0;
+    image: url('path/to/check_icon.png');
+}
+
+
+
+QCheckBox::indicator:unchecked:hover {
+    border-color: #55ffffff;
+}
+
+QWidget {
+    background-color: #3c3c3c;
+}
+
+QWidget#leftDsgnBar {
+    background-color: #0b60b0;
+}
+
+#TopBar {
+    background-color: #111111;
+}
+QWidget#TopBar {
+    background-color: #111111;
+    color: white;
+}
+QWidget#Menu {
+    background-color: #3c3c3c;
+    color: white;
+}
+
+/* QWidget#draggableTitleBar QWidget#Menu {
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    font-family: 'Pacifico', sans-serif;
+    font-weight: bold;
+    color: white;
+} */
+
+
+#RoundedDialog {
+    border:10px solid #3c3c3c;
+}
+
+/* Additional styling for other elements as needed */
+
+
+#TemplatesTableView {
+    font-size: 16px;
+    border: none;
+    gridline-color: transparent;
+}
+
+#ListIndicatorCount {
+    padding: 0;
+    text-align: center;
+}
+
+#PanelHolderDialogTabs QTabBar::tab {
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #3c3c3c;
+}
+
+#PanelHolderDialogTabs QTabBar::tab:selected {
+    background-color: #55ffffff;
+}
+
+#RoundedDialogBody {
+    padding: 25px;
+}
+
+#RoundedDialog QDialogButtonBox {
+}
+
+#builtButton {
+    text-align: center;
+}
+
+QPushButton#SmallTopButton {
+    background-color: #111111;
+    border: 1px solid #FFFFFF;
+}
+
+QPushButton#SmallTopButton:hover {
+    background-color: #111111;
+}
+
+QPushButton#SmallTopButton:pressed {
+    background-color: #BF1010;
+}
+
+QPushButton#OptionsButton {
+    background-color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+
+}
+
+QPushButton#OptionsButton:hover {
+    background-color: #111111;
+}
+
+QPushButton#OptionsButton:pressed {
+    background-color: #BF1010;
+}
+
+QPushButton#CompIconBtn {
+    background-color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+
+}
+
+QPushButton#CompIconBtn:hover {
+    background-color: #111111;
+}
+
+QPushButton#CompIconBtn:pressed {
+    background-color: #BF1010;
+}
+
+QPushButton#CompIconBtn:checked {
+    background-color: #BF1010;
+}
+
+
+QPushButton#CloseButton {
+    background-color: #3c3c3c;
+    border: 1px solid #3c3c3c;
+    font-size: 4px;
+    color: #d2d2d2;
+  
+
+}
+
+QPushButton#CloseButton:hover {
+    background-color: #111111;
+}
+
+QPushButton#CloseButton:pressed {
+    background-color: #BF1010;
+}
+
+
+QPushButton#HidingButton {
+    background-color: #3c3c3c;
+    border: 1px solid #d2d2d2;
+    color: #d2d2d2;
+}
+
+QPushButton#HidingButton:hover {
+    background-color: #111111;
+}
+
+QPushButton#HidingButton:pressed {
+    background-color: #BF1010;
+}
+QPushButton#HidingButton:checked {
+    background-color: #BF1010;
+}
+
+
+
+#NotificationTitle {
+    font-weight: bold;
+}
+
+#NotificationText {
+    font-weight: normal;
+    text-transform: none;
+}
+
+#NotificationError {
+    background-color: #BF1010;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#NotificationWarning {
+    background-color: #BF1010;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#NotificationInfo {
+    background-color: #0b60b0;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+

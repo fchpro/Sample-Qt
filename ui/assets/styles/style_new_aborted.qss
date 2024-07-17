@@ -1,0 +1,90 @@
+/* 
+grey main : #3c3c3c
+black title bar : #111111
+white text color #d2d2d2
+blue accent :  #0b60b0
+cool red suggested : #ff6262
+on off green : #02af71
+on off red : #f01c29
+
+ */
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #d2d2d2;
+}
+
+
+QPushButton {
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #333333;
+}
+
+QPushButton:pressed {
+    background-color: #444444;
+}
+
+QPushButton:disabled {
+    background-color: #2A2A2A;
+    color: #666666;
+}
+
+QLineEdit, QTextEdit {
+    color: #d2d2d2;
+    background-color: #1F1F1F;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 1px solid #555555;
+}
+
+QCheckBox {
+    spacing: 12px;
+    color: #d2d2d2;
+}
+
+QCheckBox::indicator {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #555555;
+    border-radius: 2px;
+    background-color: #1F1F1F;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #2c00ee;
+    image: url('path/to/check_icon.png');
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border-color: #777777;
+}
+
+/* QWidget {
+    background-color: #3c3c3c;
+} */
+
+
+/* QWidget#draggableTitleBar QWidget#Menu {
+    background-color: #3c3c3c;
+    border-radius: 10px;
+    font-family: 'Pacifico', sans-serif;
+    font-weight: bold;
+    color: white;
+} */
+
+
+
+
+/* Additional styling for other elements as needed */

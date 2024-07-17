@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #00baba;
+        font-family: MuseoSansCyrl-900, 'Museo Sans Cyrl';
+        font-size: 38px;
+      }
+
+      .cls-4 {
+        fill: #003e3e;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-4" width="64" height="64" rx="4.61" ry="4.61"/>
+    <text class="cls-3" transform="translate(5.04 44.94)"><tspan class="cls-2" x="0" y="0">Q</tspan><tspan class="cls-1" x="31.24" y="0">P</tspan></text>
+  </g>
+</svg>

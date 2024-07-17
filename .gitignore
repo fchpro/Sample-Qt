@@ -1,0 +1,32 @@
+# Ignore all video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.exe
+outputs*/
+outputs*
+outputs/
+../unused/uncommitable/
+out_of_commits/
+# Ignore files above 100 MB
+*.[>=]100M
+debug_folder*/
+debug_folder*
+debug_folder/
+local/
+__pycache__
+local/
+temp/
+output.txt
+log_folder/
+log_folder*/
+log_folder*
+build/
+build*/
+build*
+image_inputs/
+image_inputs*/
+image_inputs*
